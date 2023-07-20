@@ -21,4 +21,4 @@
 
 ## ScreenShot
 
-![Screenshot](/library/screenshot/main.png)
+![main](/library/screenshot/main.png)
