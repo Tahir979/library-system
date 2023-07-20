@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allbook" xml:space="preserve">
+    <value>All Books</value>
+  </data>
+  <data name="availablebook" xml:space="preserve">
+    <value>Matched Books</value>
+  </data>
+  <data name="btnadd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnback" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btndel" xml:space="preserve">
+    <value>Del</value>
+  </data>
+  <data name="btn_add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="checkbox_editing" xml:space="preserve">
+    <value>Editing Mode</value>
+  </data>
+  <data name="editing" xml:space="preserve">
+    <value>Editing</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="floor" xml:space="preserve">
+    <value>yapi</value>
+  </data>
+  <data name="font" xml:space="preserve">
+    <value>Microsoft Sans Serif</value>
+  </data>
+  <data name="infoaboutsystem" xml:space="preserve">
+    <value>Please use our library tidily and put the books you reserved back in the same place.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="langcolumn" xml:space="preserve">
+    <value>dil</value>
+  </data>
+  <data name="langlbl" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="langoledb" xml:space="preserve">
+    <value>@dil</value>
+  </data>
+  <data name="lbladdfloor" xml:space="preserve">
+    <value>Floor to Add:</value>
+  </data>
+  <data name="lbladdlang" xml:space="preserve">
+    <value>Language to Add:</value>
+  </data>
+  <data name="lbladdshelf" xml:space="preserve">
+    <value>Shelf to Add:</value>
+  </data>
+  <data name="lbldelfloor" xml:space="preserve">
+    <value>Floor to Del:</value>
+  </data>
+  <data name="lbldellang" xml:space="preserve">
+    <value>Language to Del:</value>
+  </data>
+  <data name="lbldelshelf" xml:space="preserve">
+    <value>Shelf to Del:</value>
+  </data>
+  <data name="lbl_floorinfo" xml:space="preserve">
+    <value>About Floor System</value>
+  </data>
+  <data name="lbl_libraryorderinfo" xml:space="preserve">
+    <value>About Library System</value>
+  </data>
+  <data name="lbl_orderinfo" xml:space="preserve">
+    <value>About Editing</value>
+  </data>
+  <data name="lbl_otherissuesinfo" xml:space="preserve">
+    <value>Further Suggestions</value>
+  </data>
+  <data name="lbl_programmeinfo" xml:space="preserve">
+    <value>Programmer's Note</value>
+  </data>
+  <data name="lbl_searchinfo" xml:space="preserve">
+    <value>About Searching</value>
+  </data>
+  <data name="lib_lbl_floor0" xml:space="preserve">
+    <value>Floor 0 / 1 - 23</value>
+  </data>
+  <data name="lib_lbl_floor1" xml:space="preserve">
+    <value>Floor 1 / 24 - 56</value>
+  </data>
+  <data name="lib_lbl_floor2" xml:space="preserve">
+    <value>Floor 2 / 57 - 89</value>
+  </data>
+  <data name="lib_lbl_floor3" xml:space="preserve">
+    <value>Floor 3 / 90 - 110</value>
+  </data>
+  <data name="lib_lbl_floor4" xml:space="preserve">
+    <value>Floor 4 / 111 - 140</value>
+  </data>
+  <data name="lib_lbl_shelf" xml:space="preserve">
+    <value>Clinical 1 (K)</value>
+  </data>
+  <data name="lnk_floor" xml:space="preserve">
+    <value>Floor + / -</value>
+  </data>
+  <data name="lnk_lang" xml:space="preserve">
+    <value>Language + / -</value>
+  </data>
+  <data name="lnk_shelf" xml:space="preserve">
+    <value>Shelf + / -</value>
+  </data>
+  <data name="loadloading" xml:space="preserve">
+    <value>loading</value>
+  </data>
+  <data name="messageaddbookerror" xml:space="preserve">
+    <value>There was an error in the add code, if you keep getting this error please contact muhammettahirtekatli@gmail.com or tell someone who understands c# to detect the error using breakpoints.</value>
+  </data>
+  <data name="messagecancel" xml:space="preserve">
+    <value>No action was taken.</value>
+  </data>
+  <data name="messagedeletebookerror" xml:space="preserve">
+    <value>There was an error in the delete code, if you keep getting this error please contact muhammettahirtekatli@gmail.com or tell someone who understands c# to detect the error using breakpoints.</value>
+  </data>
+  <data name="messageupdatebookerror" xml:space="preserve">
+    <value>There was an error in the update code, if you keep getting this error please contact muhammettahirtekatli@gmail.com or tell someone who understands c# to use a breakpoint to detect the error.</value>
+  </data>
+  <data name="metrolabel1_aboutediting" xml:space="preserve">
+    <value>Editing Mode: You need to turn on this mode in order to be able to edit on the programme. The reason for this is to allow users who want to use the programme only for search purposes to use the program more comfortably by ensuring that they do not see the buttons that will not be of any use to them.
+
+Adding Book: After entering relevant information to the boxes and clicking the "Add" button, the book will be registered to the programme.
+
+*note: when adding a book, please take into account the warnings written on the side and complete your registration process.
+
+Updating Book: If you notice that there is an error in the information of any book, you can edit the information of the book. To do this: search for the book on the program and when you find it, click on the line containing the book and ensure that the current information is transferred to the boxes. After to do this, make the necessary corrections and press the "Update" button.
+
+Delete Book: It works similarly to the update process. To do this: search for the book on the program and when you find it, click on the line containing the book and ensure that the current information is transferred to the boxes. After to do this, make the necessary corrections and press the "Delete" button.
+
+Language, shelf and floor + /-: It works similarly to the above.                                                                                                                    
+*note: add / delete operations do not have the power to make any changes on existing records, if you want to make a complete change, I wish you good luck with the "Update" button :)</value>
+  </data>
+  <data name="metrolabel1_aboutfloor" xml:space="preserve">
+    <value>Each bookshelf is not only used for one subfield, sometimes one bookshelf is not enough for all the books in a subfield (e.g. clinical psychology, Klinik 1 and Klinik 2). Also sometimes there may be books from different subfields in a one bookshelf (e.g. side picture).
+
+That would be good to have as many bookshelves as to allocate each subfield to only one area, but since such an opportunity is not available in the room, if there are few books related to some subfields, it was preferred to use the bookshelves in this way. Due to these insufficient opportunities, you can also see books labeled on the books. Do not be surprised.
+
+Also since there are different sub field in the same bookshelf, each subfield may not have its own 0th floor as on the side picture (e.g. "E" subfield). Evaluate the floor system layout based on the model seen on the side and search for books from the bookshelves accordingly.</value>
+  </data>
+  <data name="metrolabel1_aboutlibrarysystem" xml:space="preserve">
+    <value>* All books were numbered one by one according to the subfields suitable for their content and placed in the relevant bookshelves.                                                                                                                     
+An example library layout is shown on the side. The number ranges written next to the library floors are representative, please get the "library, floor and number" information  according to the search results you have made in the programme.                                                                                                         
+To give an example: when the result that a book's number you are looking for is 60 on the 2rd floor of the clinical psychology bookshelf, you can find this book labeled "K - 60" on the second floor of the clinical psychology bookshelf.
+ 
+* Subfield abbreviations were generally tried to be given with first letter, but since there were the same first letter some abbreviations with the first two letters or different types were reproduced (based on Turkish).
+
+Sosyal(S) - Sözlük(Sö); Öğrenme - Ö; Öteki Alt Alanlar (Öt); Klinik (K) - Karışık(-); </value>
+  </data>
+  <data name="metrolabel1_aboutsearching" xml:space="preserve">
+    <value>1-) You don't have to type the name of the book completely to search for a book. If you search for a book in the following way, if there is such a book, it will be listed. Also, typing it in capital and lowercase letters does not affect anything.                                                                                                                                                                                                                                                                                
+Assume that the name of our book may be "Hacettepe University", you can find it by searching as follows:
+-hacettepe, cettepe, tepe, acet, Hace, üniversite, üni, versite, versi, site, cettepe, cet....
+
+You do not need to type the entire name of the book to search in the program, as in the examples above. Any consecutive name within the words that make up the name of the book will help you find that whole book. For example if you search for this book as "ceta" instead of "acet", it will not be listed in the program (applies to both author and book searches).                                                                                                                                                                                                             
+2-) The names of the authors are recorded as they are written on the books: If it is long, it is long; If it is written in abbreviated form, it is recorded in the program in an abbreviated form (For example: Mehmet Akif Sayılgan or A. Gül Aydın or Gül N. Eryüksel), but no author's title didn't write even if it is written. Therefore if you are going to search for an author, I recommend that you search for the author by typing both names separately or by typing his surname, because some authors' second names are shortened while others' first names are shortened; but surname is not shortened in any of them.
+
+3-) You can search not only by typing authors' name, surname or the name of the book, but also by additional options such as shelf name, publication year or book language if necessary. All searches can be done simultaneously. So if you want, you can search 1 to 5 options, this is left to your search preference.
+
+4-) Unfortunately, I will not be able to provide support over the program to search for journal articles one by one, because there are many websites already set up to search for journal articles (for example pubmed, google scholar etc.). After researching the contents that will be useful for you, you can search for the volume and issue number of the journal you want to find on the program and see that whether if the journal you are looking for is in our library.</value>
+  </data>
+  <data name="metrolabel1_programmersnote" xml:space="preserve">
+    <value>The purpose of this programme is to use our library more efficiently, to know what the library's resources are and to make our library and room more useful for all of us.
+
+Unfortunately, most of the time when we come to look for books, we cannot find what we are looking for due to the confusion of the library. When this happens, as HÜPT, we wanted to make the library more functional and so this programme emerged.
+
+If you have any questions about the programme, library or any other subject;
+Tahir Tekatlı - muhammettahirtekatli@gmail.com
+Please contact me.</value>
+  </data>
+  <data name="metrolabel1_suggestions" xml:space="preserve">
+    <value>1. Setting places for the possible future books: This is not a development that will waste a lot of time but I don't know if future board will have money to spare for this. There are gaps on the top of the current shelves and if some new shelves are placed in the required dimensions, good places can be opened for new books because the flow of books to the library won't stop much.
+
+2. The quality of the books...: I don't know how to say, not every book we put in the library is of useful quality. An area must be opened for better quality books to come.
+
+3. The books that are in the box and under the table which are both crowded and visual pollution...: There are copies of the books/magazines that are on the shelves inside the box, and, that books didn't register to the system to accommodate a wider variety of books/magazines in the library. Maybe you can create a shelf for these and add them to the system.
+
+4. Moving the process of reserving books to the online system...: That can be done, we have system here, but it was decided that it would be better not to use it because it can be difficult to manage and maintain.
+
+5. Making the programme accessible from anywhere with SQL server (need to money).</value>
+  </data>
+  <data name="nameorauthorlbl" xml:space="preserve">
+    <value>Name or Author</value>
+  </data>
+  <data name="oledbaddbook" xml:space="preserve">
+    <value>insert into kitap (isim,yazar,yil,dil, rafismi,rafkati,rafnumarasi) values (@Kitabinİsmi,@KitabinYazari,@KitabınBasımYılı,@dil,@KitabınRafınınİsmi,@KitabınRafKatı,@KitabınRafNumarası)</value>
+  </data>
+  <data name="oledbaddfloor" xml:space="preserve">
+    <value>insert into yapi(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbaddlang" xml:space="preserve">
+    <value>insert into dil(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbaddshelf" xml:space="preserve">
+    <value>insert into kitaplik(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbbook" xml:space="preserve">
+    <value>Select * from kitap Order By isim ASC</value>
+  </data>
+  <data name="oledbcon" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.Oledb.12.0;Data Source=kutuphane.accdb</value>
+  </data>
+  <data name="oledbdeletebook" xml:space="preserve">
+    <value>DELETE FROM kitap WHERE ID=@ID</value>
+  </data>
+  <data name="oledbdeletefloor" xml:space="preserve">
+    <value>Delete From yapi Where Ad=@Ad</value>
+  </data>
+  <data name="oledbdeletelang" xml:space="preserve">
+    <value>Delete From dil Where Ad=@Ad</value>
+  </data>
+  <data name="oledbdeleteshelf" xml:space="preserve">
+    <value>Delete From kitaplik Where Ad=@Ad</value>
+  </data>
+  <data name="oledbfloor" xml:space="preserve">
+    <value>Select * from yapi</value>
+  </data>
+  <data name="oledblang" xml:space="preserve">
+    <value>Select * from dil Order By sayi DESC</value>
+  </data>
+  <data name="oledbname" xml:space="preserve">
+    <value>@Ad</value>
+  </data>
+  <data name="oledbsearchbetweenyear" xml:space="preserve">
+    <value>SELECT * FROM kitap Where yil BETWEEN @tar1 and @tar2</value>
+  </data>
+  <data name="oledbshelf" xml:space="preserve">
+    <value>Select * from kitaplik</value>
+  </data>
+  <data name="oledbtar1" xml:space="preserve">
+    <value>@tar1</value>
+  </data>
+  <data name="oledbtar2" xml:space="preserve">
+    <value>@tar2</value>
+  </data>
+  <data name="oledbupdatebook" xml:space="preserve">
+    <value>update kitap set isim=@isim, yazar=@yazar, yil=@yil, dil=@dil, rafismi=@rafismi, rafkati=@rafkati, rafnumarasi=@rafnumarasi where ID=@ID</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="questionaddbook" xml:space="preserve">
+    <value>Are you sure you want to add book?</value>
+  </data>
+  <data name="questionaddfloor" xml:space="preserve">
+    <value>Are you sure you want to add floor?</value>
+  </data>
+  <data name="questionaddlang" xml:space="preserve">
+    <value>Are you sure you want to add language?</value>
+  </data>
+  <data name="questiondeletebook" xml:space="preserve">
+    <value>Are you sure you want to delete the book?</value>
+  </data>
+  <data name="questiondeletefloor" xml:space="preserve">
+    <value>Are you sure you want to delete floor?</value>
+  </data>
+  <data name="questiondeletelang" xml:space="preserve">
+    <value>Are you sure you want to delete the language?</value>
+  </data>
+  <data name="questionshelfadd" xml:space="preserve">
+    <value>Are you sure you want to add the shelf?</value>
+  </data>
+  <data name="questionshelfdelete" xml:space="preserve">
+    <value>Are you sure you want to delete the shelf?</value>
+  </data>
+  <data name="questionupdatebook" xml:space="preserve">
+    <value>Are you sure you want to update the book?</value>
+  </data>
+  <data name="rbsingle" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="rbspaced" xml:space="preserve">
+    <value>Spaced</value>
+  </data>
+  <data name="revert" xml:space="preserve">
+    <value>Revert Back</value>
+  </data>
+  <data name="searchlbl" xml:space="preserve">
+    <value>Searching</value>
+  </data>
+  <data name="shelflbl" xml:space="preserve">
+    <value>Shelf</value>
+  </data>
+  <data name="turkce" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="underline" xml:space="preserve">
+    <value>___________</value>
+  </data>
+  <data name="underline2" xml:space="preserve">
+    <value>________</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="warningaboutupdate" xml:space="preserve">
+    <value>Please finish/end your current editing process.</value>
+  </data>
+  <data name="warningedit" xml:space="preserve">
+    <value>*If no publication year can be found in the book, the year box will be left blank.
+
+*If the journal is registered, the author section will be left blank.
+
+*If you need to clear the boxes, click the right cross.</value>
+  </data>
+  <data name="warningupdate" xml:space="preserve">
+    <value>No changes were made to the data.</value>
+  </data>
+  <data name="yearlbl" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="_main" xml:space="preserve">
+    <value>Library Programme</value>
+  </data>
+  <data name="_mainen" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="_maingridbook" xml:space="preserve">
+    <value>kitap</value>
+  </data>
+  <data name="_maingridshelfname" xml:space="preserve">
+    <value>kitaplik</value>
+  </data>
+  <data name="_maingrid_headerauthor" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="_maingrid_headerfloor" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="_maingrid_headerlang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="_maingrid_headername" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="_maingrid_headerno" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="_maingrid_headershelf" xml:space="preserve">
+    <value>Shelf</value>
+  </data>
+  <data name="_maingrid_headeryear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="_maingrid_oledauthor" xml:space="preserve">
+    <value>@yazar</value>
+  </data>
+  <data name="_maingrid_oledbid" xml:space="preserve">
+    <value>@ID</value>
+  </data>
+  <data name="_maingrid_oledname" xml:space="preserve">
+    <value>@isim</value>
+  </data>
+  <data name="_maingrid_oledshelffloor" xml:space="preserve">
+    <value>@rafkati</value>
+  </data>
+  <data name="_maingrid_oledshelfname" xml:space="preserve">
+    <value>@rafismi</value>
+  </data>
+  <data name="_maingrid_oledshelfno" xml:space="preserve">
+    <value>@rafnumarasi</value>
+  </data>
+  <data name="_maingrid_oledyear" xml:space="preserve">
+    <value>@yil</value>
+  </data>
+  <data name="_mainsuccessfulladdbook" xml:space="preserve">
+    <value>Entering a new book is successful.</value>
+  </data>
+  <data name="_mainsuccessfulldeletebook" xml:space="preserve">
+    <value>Deleting the book is successfull.</value>
+  </data>
+  <data name="_mainsuccessfullupdatebook" xml:space="preserve">
+    <value>Update process is successful.</value>
+  </data>
+  <data name="_maintr" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="_mainwarningaddbook" xml:space="preserve">
+    <value>You clicked the wrong button, I think you want to update or delete data, please read the rules by dragging the cursor on these buttons.</value>
+  </data>
+  <data name="_mainwarningdeletebook" xml:space="preserve">
+    <value>Please follow the rules when deleting a book, you can read how it must be by dragging the cursor on this button, because, a notification dialogue box will have appeared on the button and the rules will have seen here.</value>
+  </data>
+  <data name="_mainwarningemptybox" xml:space="preserve">
+    <value>Please fill the boxes.</value>
+  </data>
+  <data name="_mainwarningupdatebook" xml:space="preserve">
+    <value>Please follow the rules when updating a book register, you can read how it must be by dragging the cursor on this button, because, a notification dialogue box will have appeared on the button and the rules will have seen here.</value>
+  </data>
+</root>

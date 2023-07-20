@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="allbook" xml:space="preserve">
+    <value>Tüm kitaplar</value>
+  </data>
+  <data name="availablebook" xml:space="preserve">
+    <value>Uygun kitaplar</value>
+  </data>
+  <data name="btnadd" xml:space="preserve">
+    <value>Ekle</value>
+  </data>
+  <data name="btnback" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="btndel" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="btn_add" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="btn_delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="btn_update" xml:space="preserve">
+    <value>Güncelle</value>
+  </data>
+  <data name="checkbox_editing" xml:space="preserve">
+    <value>Düzenleme Modu</value>
+  </data>
+  <data name="editing" xml:space="preserve">
+    <value>Düzenleme</value>
+  </data>
+  <data name="english" xml:space="preserve">
+    <value>EN</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>Hata</value>
+  </data>
+  <data name="floor" xml:space="preserve">
+    <value>yapi</value>
+  </data>
+  <data name="font" xml:space="preserve">
+    <value>Microsoft Sans Serif</value>
+  </data>
+  <data name="infoaboutsystem" xml:space="preserve">
+    <value>Kütüphanemizi lütfen düzenli bir şekilde kullanalım, aldığımız kitapları geri aynı yerine koyalım.</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Bilgilendirme</value>
+  </data>
+  <data name="langcolumn" xml:space="preserve">
+    <value>dil</value>
+  </data>
+  <data name="langlbl" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="langoledb" xml:space="preserve">
+    <value>@dil</value>
+  </data>
+  <data name="lbladdfloor" xml:space="preserve">
+    <value>Eklenecek Kat:</value>
+  </data>
+  <data name="lbladdlang" xml:space="preserve">
+    <value>Eklenecek Dil:</value>
+  </data>
+  <data name="lbladdshelf" xml:space="preserve">
+    <value>Eklenecek Raf:</value>
+  </data>
+  <data name="lbldelfloor" xml:space="preserve">
+    <value>Silinecek Kat:</value>
+  </data>
+  <data name="lbldellang" xml:space="preserve">
+    <value>Silinecek Dil:</value>
+  </data>
+  <data name="lbldelshelf" xml:space="preserve">
+    <value>Silinecek Raf:</value>
+  </data>
+  <data name="lbl_floorinfo" xml:space="preserve">
+    <value>Kat Düzeni Hk.</value>
+  </data>
+  <data name="lbl_libraryorderinfo" xml:space="preserve">
+    <value>Kütüphane Düzeni Hk.</value>
+  </data>
+  <data name="lbl_orderinfo" xml:space="preserve">
+    <value>Düzenleme Hk.</value>
+  </data>
+  <data name="lbl_otherissuesinfo" xml:space="preserve">
+    <value>Diğer Öneriler</value>
+  </data>
+  <data name="lbl_programmeinfo" xml:space="preserve">
+    <value>Programcı Notu</value>
+  </data>
+  <data name="lbl_searchinfo" xml:space="preserve">
+    <value>Arama Hk.</value>
+  </data>
+  <data name="lib_lbl_floor0" xml:space="preserve">
+    <value>0. Kat / 1 - 23</value>
+  </data>
+  <data name="lib_lbl_floor1" xml:space="preserve">
+    <value>1. Kat / 24 - 56</value>
+  </data>
+  <data name="lib_lbl_floor2" xml:space="preserve">
+    <value>2. Kat / 57 - 89</value>
+  </data>
+  <data name="lib_lbl_floor3" xml:space="preserve">
+    <value>3. Kat / 90 - 110</value>
+  </data>
+  <data name="lib_lbl_floor4" xml:space="preserve">
+    <value>4. Kat / 111 - 140</value>
+  </data>
+  <data name="lib_lbl_shelf" xml:space="preserve">
+    <value>Klinik 1 (K)</value>
+  </data>
+  <data name="lnk_floor" xml:space="preserve">
+    <value>Kat + / -</value>
+  </data>
+  <data name="lnk_lang" xml:space="preserve">
+    <value>Dil + / -</value>
+  </data>
+  <data name="lnk_shelf" xml:space="preserve">
+    <value>Raf + / -</value>
+  </data>
+  <data name="loadloading" xml:space="preserve">
+    <value>loading</value>
+  </data>
+  <data name="messageaddbookerror" xml:space="preserve">
+    <value>Kaydetme kodlarında bir hata meydana geldi, eğer bu hatayı sürekli alıyorsanız lütfen muhammettahirtekatli@gmail.com ile iletişime geçiniz ya da c#'dan anlayan birine durumu bildiriniz ve breakpoint kullanarak hatayı tespit etmesi gerektiğini söyleyiniz.</value>
+  </data>
+  <data name="messagecancel" xml:space="preserve">
+    <value>Herhangi bir işlem yapılmadı.</value>
+  </data>
+  <data name="messagedeletebookerror" xml:space="preserve">
+    <value>Silme kodlarında bir hata meydana geldi, eğer bu hatayı sürekli alıyorsanız lütfen muhammettahirtekatli@gmail.com ile iletişime geçiniz ya da c#'dan anlayan birine durumu bildiriniz ve breakpoint kullanarak hatayı tespit etmesi gerektiğini söyleyiniz.</value>
+  </data>
+  <data name="messageupdatebookerror" xml:space="preserve">
+    <value>Güncelleme kodlarında bir hata meydana geldi, eğer bu hatayı sürekli alıyorsanız lütfen muhammettahirtekatli@gmail.com ile iletişime geçiniz ya da c#'dan anlayan birine durumu bildiriniz ve breakpoint kullanarak hatayı tespit etmesi gerektiğini söyleyiniz.</value>
+  </data>
+  <data name="metrolabel1_aboutediting" xml:space="preserve">
+    <value>Düzenleme Modu: Program üstünde düzenleme yapabilmeniz için bu modu açmanız gerekmektedir, bunun olmasının sebebi programı sadece arama amaçlı kullanmak isteyen kullanıcıların kendilerinin herhangi bir işine yaramayacak olan butonları görmemesini sağlayarak programı daha rahat kullanmalarına olanak sağlamaktır.
+
+Kitap ekleme: Kutucuklara ilgili bilgiler girilip "Kaydet" butonuna basıldıktan sonra kitabın kaydı programa yapılacaktır.
+
+*not: kitap ekleme işlemi yapılırken lütfen yan tarafta yazılmış olan uyarıları dikkate alarak kayıt işlemlerinizi yapınız.
+
+Kitap güncelleme: Herhangi bir kitabın bilgisinde bir hata olduğunu fark ederseniz kitabın bilgilerinde düzenlemeye gidebilirsiniz. Bunun için program üstünden hatalı olan kitabı aratıp bulduğunuz zaman kitabın bulunduğu satıra tıklayarak mevcut bilgilerin kutucuklara aktarılmasını sağlayınız. Bunu yapmanızın ardından hangi bilgide/bilgilerde bir hata varsa gerekli düzeltmeleri yaparak "Güncelle" butonuna basınız.
+
+Kitap sil: Güncelleme işlemi ile benzer nitelikte çalışır. Program üstünde silmek istediğiniz kitabı aratıp bulduğunuz zaman kitabın bulunduğu satıra tıklayarak mevcut bilgilerin kutucuklara aktarılmasını sağlayınız ve bunu yapmanızın ardından "Sil" butonuna basarak mevcut kitabı silebilirsiniz.
+
+Dil, kitaplık ve kat + / -: Üsttekilerle benzer bir biçimde çalışır.
+
+*not: bu ekle / sil işlemlerinin mevcut kayıtlar üstünde herhangi bir değişiklik yapma gücü yoktur, eğer köklü bir değişikliğe gidilmek isteniliyorsa "Güncelle" butonunuza bol şans dilerim :)</value>
+  </data>
+  <data name="metrolabel1_aboutfloor" xml:space="preserve">
+    <value>Her bir kitaplık sadece bir alan için kullanılmıyor, bazen bir kitaplık bir alanın tüm kitapları için yetmeyip iki kitaplık kullanılıyorken (Ör. klinik psikoloji) bazen de  aynı kitaplığın katlarında birbirinden farklı alanlardan kitaplar olabiliyor (Ör. Endüstri ve Örgüt - Öğrenme - Araştırma Teknikleri mevcut düzende aynı kitaplıkta bulunuyor).
+
+Her bir kitaplığı sadece bir alana ayırabilecek kadar çok kitaplık olması güzel olabilirdi ama böyle bir imkan odanın içinde mevcut olmadığı için eğer bir alana dair kütüphanemizde az sayıda kitap varsa kitaplıklardan bu şekilde yararlanılma yolu tercih edildi. Bu alan darlığından dolayı da bazen kitapların üstünde etiketlenmiş kitaplar görebilirsiniz, şaşırmayınız, alan darlığından dolayı mecburen kitapların üstünde o kitaplar duruyor.
+
+Aynı kitaplıkta farklı farklı alanlar olduğu için her bir alanın ilk sayfada gördüğünüz klinik gibi kendisine ait bir 0. katı 1. katı olmayabilir, bunun yerine yanda görülen modeli esas alarak kat düzenini değerlendiriniz ve buna göre kitaplıklardan kitap aramanızı yapınız.</value>
+  </data>
+  <data name="metrolabel1_aboutlibrarysystem" xml:space="preserve">
+    <value>*Tüm kitaplar kendi içeriklerine uygun olan alanlara göre tek tek numaralandırıldı ve ilgili kitaplıklara yerleştirildi. 
+
+Yan tarafta örnek amaçlı bir kitaplık düzeni gösterilmiştir. Kitaplık katlarının yanında yazan numara aralıkları temsilidir, programda yaptığınız arama sonuçlarına göre "kitaplık, kat ve numara" bilgilerini edininiz. 
+
+Örnek vermek gerekirse aradığınız bir kitabın deneysel psikoloji kitaplığının 3.katında 60 numaralı kitap olduğu sonucu çıktığı zaman, eğer kütüphaneyi kullanan tüm arkadaşlarımız kitapları aldığı yere geri bırakmış ve kimse de o kitabı almamışsa deneysel kitaplığının üçünde katında ilgili kitabı "D - 60" şeklinde etiketlenmiş olarak görebilirsiniz.
+ 
+*Alan kısaltmaları genellikle alan baş harfleri olmasına özen gösterilerek verilmeye çalışıldı ama aynı baş harfe sahip alanlar olduğu için bazen ilk iki harfin de olduğu ya da daha değişik türden olan kısaltmalar kullanıldı.
+
+Sosyal(S) - Sözlük(Sö); Klinik(K) - Karışık(-); Öğrenme - Ö; Öteki Alt Alanlar (Öt)</value>
+  </data>
+  <data name="metrolabel1_aboutsearching" xml:space="preserve">
+    <value>1-) Kitap arama için kitabın ismini tamamen yazmak zorunda değilsiniz, aşağıdaki şekilde de kitap araması yaparsanız eğer öyle bir kitap varsa listelenecektir, ayrıca büyük-küçük harfle yazmanız bir şeyi etkilemez.
+
+Kitabımızın ismi "Hacettepe Üniversitesi" olsun, siz bunu bulmak için aşağıdaki gibi arama yaparak bulabilirsiniz:
+
+-hacettepe, cettepe, tepe, acet, Hace, üniversite, üni, versite, versi, site, cettepe, cet....
+
+Programda arama yapmak için kitabın tüm ismini yazmanıza gerek yoktur, yukarıdaki örneklerde olduğu gibi kitabın adını oluşturan kelimeler içindeki herhangi "sıralı" bir bütün o kitabı bulmanızda yardımcı olacaktır, mesela bu kitabı bulmak için "acet" yerine "ceta" şeklinde arama yaparsanız programda listelenmeyecektir (hem yazar hem kitap aramaları için geçerlidir).
+
+2-) Yazarların isimleri kitapların üstünde yazılan şekilde kaydedilmiştir, uzun yazıyorsa uzun; kısaltılmış bir şekilde yazıyorsa kısaltmış bir şekilde programa kaydedilmiştir(Ör: Mehmet Akif Sayılgan ya da A.Gül Aydın ya da Gül N. Eryüksel) ama hiç bir yazarın unvanı yazılmamıştır kitap üstünde yazsa bile. Bu yüzden, eğer yazar araması yapacaksanız arama yaparken her iki isimi ayrı ayrı yazarak ya da soyismini yazarak yazarı aramanızı tavsiye ederim çünkü bazı yazarların ikinci ismi kısaltmaya uğrarken bazılarının ilk ismi kısaltmaya uğruyor; ama soyisim hiç birinde kısaltmaya uğramıyor.
+
+3-) Sadece isim soyisim ya da kitap ismi yazarak değil gerekirse kitaplık ismi, basım yılı, kitap dili gibi ek seçeneklerle de arama yapabilirsiniz. (Tüm arama işlemleri eş zamanlı olarak yapılmaktadır. Yani isterseniz sadece bir özelliğe göre de arama yapabilirsiniz 5 seçeneğe göre de, bu sizin arama tercihinize bırakılmıştır)
+
+4-) Dergi makalelerini tek tek aramak için program üstünden destek veremeyeceğim maalesef çünkü dergi makalelerini aramak için hali hazırda kurulan bir sürü internet siteleri var, işinize yarayacak olan içerikleri araştırdıktan sonra, bulmak istediğiniz derginin cilt ve sayı numarasını program üstünden arayarak aradığınız derginin kütüphanemizde olup olmadığını görebilirsiniz.</value>
+  </data>
+  <data name="metrolabel1_programmersnote" xml:space="preserve">
+    <value>Bu programın yapılma amacı kütüphanemizi daha verimli kullanmak, kütüphanenin kaynaklarının ne olduğunu bilmek ve bunlardan yararlanarak kütüphanemiz ve odamızın hepimiz için daha faydalı bir hale gelmesini sağlamaktır. 
+
+Kitap aramak için geldiğimiz çoğu zaman maalesef kütüphanenin karışıklığından dolayı aradığımız şeyleri varsa bile bulamıyoruz, böyle bir durum olunca HÜPT olarak kütüphaneyi daha işlevsel hale getirmek istedik ve ortaya bu program ortaya çıktı.
+
+Program, kütüphane ya da başka bir konu hakkında sormak istedikleriniz olursa;
+Tahir Tekatlı - muhammettahirtekatli@gmail.com
+iletişime geçebilirsiniz.</value>
+  </data>
+  <data name="metrolabel1_suggestions" xml:space="preserve">
+    <value>1. Gelecekte gelebilecek olası kitaplar için ayarlanabilecek yerler: Bu çok fazla zaman harcatabilecek bir geliştirme değil aslında ama gelecek yönetimlerin buna ayırabileceği parası olur mu bilemem, şu an bulunan rafların üstlerinde boşluklar var ve gerekli ölçülerde raflar yerleştirilirse güzel yerler açılabilir yeni kitaplar için ya da farklı bir şey düşünülebilirse güzel olur çünkü kütüphaneye olan kitap akışı pek fazla durmuyor.
+
+2. Kitapların kalitesi...: Böyle söylemek ne kadar doğru bilmiyorum ama kitaplığa koyduğumuz her kitap işimize yarar kalitede değil, belki bir ekip oluşturulup kitapların incelemesi yapılarak daha nitelikli olanların kitaplıkta bırakılmasını ve geri kalanların indirilip(yedek kitaplara atmak gibi vb...) yerine daha kaliteli kitapların gelebilmesi için alan açılabilir.
+
+3. Kutuda duran ve masanın altında hem kalabalık hem de görüntü kirliliği yapan kitaplar...: Kutunun içinde raflarda olan kitapların/dergilerin kopyaları var ve kitaplıkta daha çeşitli kitap/dergiye yer vermek için yedek kitaplar sisteme kaydedilmedi. Belki bunlar için ayrı bir raf oluşturabilir ve programa "Yedek" kategorisi eklenerek bunun altında yedek kitaplar kaydedilerek sisteme eklenebilir (1.önerimde olduğu gibi eğer odaya ek kitap rafları getirilebilirse o zaman  bu öneri yapılabilir belki)
+
+4. Kitap alma / teslim etme işlemlerini online sisteme taşımak... Yapılabilir bir şey bu ve sistemi de mevcut ancak bunun yönetilmesinin ve devam ettirilmesinin zor olabileceğinden dolayı bunun kullanılmamasının daha uygun olacağına karar verildi, mevcuttaki aldığın kitabı deftere yaz teslim ettiğin zaman defterden üstünü karala düzeni devam ediyor, bu konuya dair farklı öneriler gelirse değerlendirilebilir.
+
+5. Programı her yerden erişilebilir hale getirmek.</value>
+  </data>
+  <data name="nameorauthorlbl" xml:space="preserve">
+    <value>İsim ya da Yazar</value>
+  </data>
+  <data name="oledbaddbook" xml:space="preserve">
+    <value>insert into kitap (isim,yazar,yil,dil, rafismi,rafkati,rafnumarasi) values (@Kitabinİsmi,@KitabinYazari,@KitabınBasımYılı,@dil,@KitabınRafınınİsmi,@KitabınRafKatı,@KitabınRafNumarası)</value>
+  </data>
+  <data name="oledbaddfloor" xml:space="preserve">
+    <value>insert into yapi(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbaddlang" xml:space="preserve">
+    <value>insert into dil(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbaddshelf" xml:space="preserve">
+    <value>insert into kitaplik(Ad) values (@Ad)</value>
+  </data>
+  <data name="oledbbook" xml:space="preserve">
+    <value>Select * from kitap Order By isim ASC</value>
+  </data>
+  <data name="oledbcon" xml:space="preserve">
+    <value>Provider=Microsoft.ACE.Oledb.12.0;Data Source=kutuphane.accdb</value>
+  </data>
+  <data name="oledbdeletebook" xml:space="preserve">
+    <value>DELETE FROM kitap WHERE ID=@ID</value>
+  </data>
+  <data name="oledbdeletefloor" xml:space="preserve">
+    <value>Delete From yapi Where Ad=@Ad</value>
+  </data>
+  <data name="oledbdeletelang" xml:space="preserve">
+    <value>Delete From dil Where Ad=@Ad</value>
+  </data>
+  <data name="oledbdeleteshelf" xml:space="preserve">
+    <value>Delete From kitaplik Where Ad=@Ad</value>
+  </data>
+  <data name="oledbfloor" xml:space="preserve">
+    <value>Select * from yapi</value>
+  </data>
+  <data name="oledblang" xml:space="preserve">
+    <value>Select * from dil Order By sayi DESC</value>
+  </data>
+  <data name="oledbname" xml:space="preserve">
+    <value>@Ad</value>
+  </data>
+  <data name="oledbsearchbetweenyear" xml:space="preserve">
+    <value>SELECT * FROM kitap Where yil BETWEEN @tar1 and @tar2</value>
+  </data>
+  <data name="oledbshelf" xml:space="preserve">
+    <value>Select * from kitaplik</value>
+  </data>
+  <data name="oledbtar1" xml:space="preserve">
+    <value>@tar1</value>
+  </data>
+  <data name="oledbtar2" xml:space="preserve">
+    <value>@tar2</value>
+  </data>
+  <data name="oledbupdatebook" xml:space="preserve">
+    <value>update kitap set isim=@isim, yazar=@yazar, yil=@yil, dil=@dil, rafismi=@rafismi, rafkati=@rafkati, rafnumarasi=@rafnumarasi where ID=@ID</value>
+  </data>
+  <data name="question" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="questionaddbook" xml:space="preserve">
+    <value>Kitap eklemek istediğinize emin misiniz?</value>
+  </data>
+  <data name="questionaddfloor" xml:space="preserve">
+    <value>Kat eklemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questionaddlang" xml:space="preserve">
+    <value>Dil eklemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questiondeletebook" xml:space="preserve">
+    <value>Kitabı silmek istediğinize emin misiniz?</value>
+  </data>
+  <data name="questiondeletefloor" xml:space="preserve">
+    <value>Katı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questiondeletelang" xml:space="preserve">
+    <value>Dil silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questionshelfadd" xml:space="preserve">
+    <value>Rafı eklemek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questionshelfdelete" xml:space="preserve">
+    <value>Rafı silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="questionupdatebook" xml:space="preserve">
+    <value>Kitabı güncellemek istediğinize emin misiniz?</value>
+  </data>
+  <data name="rbsingle" xml:space="preserve">
+    <value>Tek</value>
+  </data>
+  <data name="rbspaced" xml:space="preserve">
+    <value>Aralıklı</value>
+  </data>
+  <data name="revert" xml:space="preserve">
+    <value>Eski Haline Döndür</value>
+  </data>
+  <data name="searchlbl" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="shelflbl" xml:space="preserve">
+    <value>Raf</value>
+  </data>
+  <data name="turkce" xml:space="preserve">
+    <value>TR</value>
+  </data>
+  <data name="underline" xml:space="preserve">
+    <value>________</value>
+  </data>
+  <data name="underline2" xml:space="preserve">
+    <value>____________</value>
+  </data>
+  <data name="warning" xml:space="preserve">
+    <value>Uyarı</value>
+  </data>
+  <data name="warningaboutupdate" xml:space="preserve">
+    <value>Lütfen mevcut düzenleme işleminizi bitiriniz/sonlandırınız.</value>
+  </data>
+  <data name="warningedit" xml:space="preserve">
+    <value>*Eğer kitapta herhangi bir basım yılı bulunamıyorsa, yıl kutucuğu boş bırakılacaktır.
+
+*Eğer dergi kaydı yapılıyorsa, yazar kısmı boş bırakılacaktır.
+
+*Eğer kutucukları temizlemeniz gerekiyorsa sağ çapraza tıklayın.</value>
+  </data>
+  <data name="warningupdate" xml:space="preserve">
+    <value>Verilerde hiçbir değişiklik yapılmadı ki neyi güncelleyim?</value>
+  </data>
+  <data name="yearlbl" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="_main" xml:space="preserve">
+    <value>Kütüphane Programı</value>
+  </data>
+  <data name="_mainen" xml:space="preserve">
+    <value>en-US</value>
+  </data>
+  <data name="_maingridbook" xml:space="preserve">
+    <value>kitap</value>
+  </data>
+  <data name="_maingridshelfname" xml:space="preserve">
+    <value>kitaplik</value>
+  </data>
+  <data name="_maingrid_headerauthor" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="_maingrid_headerfloor" xml:space="preserve">
+    <value>Kat</value>
+  </data>
+  <data name="_maingrid_headerlang" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="_maingrid_headername" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="_maingrid_headerno" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="_maingrid_headershelf" xml:space="preserve">
+    <value>Raf</value>
+  </data>
+  <data name="_maingrid_headeryear" xml:space="preserve">
+    <value>Yıl</value>
+  </data>
+  <data name="_maingrid_oledauthor" xml:space="preserve">
+    <value>@yazar</value>
+  </data>
+  <data name="_maingrid_oledbid" xml:space="preserve">
+    <value>@ID</value>
+  </data>
+  <data name="_maingrid_oledname" xml:space="preserve">
+    <value>@isim</value>
+  </data>
+  <data name="_maingrid_oledshelffloor" xml:space="preserve">
+    <value>@rafkati</value>
+  </data>
+  <data name="_maingrid_oledshelfname" xml:space="preserve">
+    <value>@rafismi</value>
+  </data>
+  <data name="_maingrid_oledshelfno" xml:space="preserve">
+    <value>@rafnumarasi</value>
+  </data>
+  <data name="_maingrid_oledyear" xml:space="preserve">
+    <value>@yil</value>
+  </data>
+  <data name="_mainsuccessfulladdbook" xml:space="preserve">
+    <value>Yeni kitap kaydetme işlemi başarılı.</value>
+  </data>
+  <data name="_mainsuccessfulldeletebook" xml:space="preserve">
+    <value>Silme işlemi başarılı.</value>
+  </data>
+  <data name="_mainsuccessfullupdatebook" xml:space="preserve">
+    <value>Güncelleme işlemi başarılı.</value>
+  </data>
+  <data name="_maintr" xml:space="preserve">
+    <value>tr-TR</value>
+  </data>
+  <data name="_mainwarningaddbook" xml:space="preserve">
+    <value>Yanlış butona basıyorsunuz, sanırım ya güncelleme ya da silme işlemi yapacaktınız?</value>
+  </data>
+  <data name="_mainwarningdeletebook" xml:space="preserve">
+    <value>Lütfen silme işlemini kurallara uygun olarak yapınız, butonun üstüne fareyi getirerek nasıl yapacağınızı okuyabilirsiniz.</value>
+  </data>
+  <data name="_mainwarningemptybox" xml:space="preserve">
+    <value>Kutucukları boş bırakmayınız.</value>
+  </data>
+  <data name="_mainwarningupdatebook" xml:space="preserve">
+    <value>Lütfen güncelleme işlemini kurallara uygun olarak yapınız. Verileri tek tek elinizle girmenize gerek yok, güncellemek istediğiniz kitabın üstüne tıklayıp sadece gerekli yerlerde değişikliği yapmanız yeterli olacaktır.</value>
+  </data>
+</root>
