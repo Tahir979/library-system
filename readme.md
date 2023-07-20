@@ -21,4 +21,4 @@
 
 ## ScreenShot
 
-![Screenshot](screenshot\main.png)
+![Screenshot](/library/screenshot/main.png)
