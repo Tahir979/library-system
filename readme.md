@@ -8,7 +8,7 @@
 
 ## **About Program**
 
-* Editing Mode: You need to turn on this mode in order to be able to edit on the program. The reason of this mode is to allow users who want to use the program only for search purposes to use more comfortably by ensuring that they do not see the buttons that will not be useful for searching.
+* Editing Mode: You need to turn on this mode in order to be able to edit on the program. The reason of this mode is to allow users who want to use the program only for search purposes to use it more comfortably by ensuring that they do not see the buttons that will not be useful for searching.
 
      * A login system had been integrated into the program for more convenient use, but users haven't found it comfortable. So, we had needed to set up editing mode.
 
